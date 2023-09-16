@@ -1,2 +1,13 @@
-
 /* css */
+body {
+    background-color: #1369EB;
+}
+.message {
+    width: 200px;
+    text-align: justify;
+    font-weight: bold;
+
+}
+.shadow {
+    text-shadow: 0 5px rgba(0, 0, 0, 0.2);
+}
