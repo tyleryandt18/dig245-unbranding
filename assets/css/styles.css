@@ -1,16 +1,80 @@
 /* css */
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
 @font-face {
-    font-family: 'Delicious Handrawn';
-    src: url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Delicious+Handrawn&display=swap');
+    font-family: 'Logo';
+    src: url('Geogrotesque-Bd.woff') format('woff');
 }
 body{
     background-color: #009cde;
+}
+
+.hidden {
+    font-family: 'Logo', serif;
+    font-size: 120px;
+    font-weight: 100;
+    display: none;
+}
+
+.logo:hover + .hidden{
+    display: block;
+}
+
+.much {
+    top: 10%;
+    left: 36%;
+    position: fixed;
+    color: rgba(255, 0, 0);
+}
+
+.sadness {
+    top: 21%;
+    left: 39%;
+    position: fixed;
+    color: rgba(255, 0, 0);
 }
 
 .logo{
     display: block;
     top: 25%;
     left: 25%;
-    width: 50%;
+    width: 48%;
+    height: 40%;
     position: fixed;
+    background-image: url("../img/march-madness-logo.png");
+    background-size: 100% 100%;
+}
+
+.logo::before{
+    display: hidden;
+}
+
+.logo::before:hover{
+    content: "test";
+    display: block;
+}
+
+.headline{
+    background-color: white;
+    height: 50px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.headline-p{
+    font-family: 'Logo';
+    color: black;
+    padding: 0 40px;
+    border-right: 3px solid #009cde;
+    display: inline-block;
+}
+
+.headline-p:hover{
+    color: #009cde;
 }
