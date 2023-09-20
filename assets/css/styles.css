@@ -1,4 +1,16 @@
 /* css */
+@font-face {
+    font-family: 'Delicious Handrawn';
+    src: url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Delicious+Handrawn&display=swap');
+}
 body{
     background-color: #009cde;
+}
+
+.logo{
+    display: block;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    position: fixed;
 }
