@@ -34,3 +34,20 @@ for(let i = 0; i < myElements.length; i++){
         event.target.style.color = "black";
     })
 }
+
+let showLinks = document.getElementById("show-links");
+console.log(showLinks);
+
+showLinks.addEventListener("mouseover", function(){
+    for(let i = 0; i < myElements.length; i++){
+        myElements[i].innerText = texts[i];
+        myElements[i].style = "color: red";
+    }
+})
+
+showLinks.addEventListener("mouseout", function(){
+    for(let i = 0; i < myElements.length; i++){
+        myElements[i].innerText = orig_texts[i];
+        myElements[i].style = "color: black";
+    }
+})
