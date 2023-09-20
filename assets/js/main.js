@@ -23,7 +23,7 @@ console.log(myElements[1].innerText);
 let orig_texts = ["HOME", "SCORES", "PLAY", "OFFICIAL BRACKET"]
 let texts = ["RECEIVING DEATH THREATS", "TIRED", "OVERWORKED", "STRESSED"];
 
-for(let i = 0; i < 4; i++){
+for(let i = 0; i < myElements.length; i++){
     myElements[i].addEventListener("mouseover", function(event){
         event.target.innerText = texts[i];
         event.target.style = "color: red";
