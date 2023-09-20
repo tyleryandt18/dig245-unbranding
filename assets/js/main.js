@@ -1,5 +1,16 @@
 /* javascript */
-console.log("")
+console.log("My motivation for this project was to bring light to the stressful",
+"nature of playing a collegiate sport. My sister was a D1 athlete at the University",
+"of Washington, and transfered to a different school to better balance her time with",
+"her sport and outside of it. Furthermore, this motivation comes from the newest",
+"conference realignment of the PAC-12 to the Big 10 and other conferences.")
+
+/* sources */
+console.log("Sources: \n",
+"https://www.cnn.com/2021/03/20/us/ohio-state-ej-liddell-basketball-death-threat-trnd/index.html\n",
+"https://www.sportico.com/leagues/college-sports/2022/does-conference-realignment-travel-benefit-college-athletes-1234682570/\n",
+"https://www.ncsasports.org/blog/study-time-demands-d1-studentathletes-excessive\n",
+"https://www.highereddive.com/news/mental-health-student-athletes-jed-foundation/641146/#:~:text=In%20fall%202021%2C%2024%25%20of,leave%20or%20suffer%20an%20injury.\n")
 
 let myElements = document.getElementsByTagName("a");
 
