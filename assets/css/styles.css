@@ -20,18 +20,30 @@ body{
     display: block;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .much {
-    top: 10%;
-    left: 36%;
+    top: 5%;
+    left: 53%;
     position: fixed;
     color: rgba(255, 0, 0);
 }
 
 .sadness {
-    top: 21%;
-    left: 39%;
+    top: 16.8%;
+    left: 60%;
     position: fixed;
     color: rgba(255, 0, 0);
+}
+
+.strike{
+    background-color: red;
+    height: 15px;
+    width: 275px;
+    position: fixed;
 }
 
 .logo{
@@ -43,15 +55,7 @@ body{
     position: fixed;
     background-image: url("../img/march-madness-logo.png");
     background-size: 100% 100%;
-}
-
-.logo::before{
-    display: hidden;
-}
-
-.logo::before:hover{
-    content: "test";
-    display: block;
+    z-index: -1;
 }
 
 .headline{
@@ -73,8 +77,4 @@ body{
     padding: 0 40px;
     border-right: 3px solid #009cde;
     display: inline-block;
-}
-
-.headline-p:hover{
-    color: #009cde;
 }
