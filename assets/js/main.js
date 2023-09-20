@@ -12,6 +12,8 @@ console.log("Sources: \n",
 "https://www.ncsasports.org/blog/study-time-demands-d1-studentathletes-excessive\n",
 "https://www.highereddive.com/news/mental-health-student-athletes-jed-foundation/641146/#:~:text=In%20fall%202021%2C%2024%25%20of,leave%20or%20suffer%20an%20injury.\n")
 
+console.log("NCAA March Madness logo: https://www.ncaa.com/march-madness-live/watch?cid=ncaa_mml_nav_men")
+
 let myElements = document.getElementsByTagName("a");
 
 /* test element retrieval */
